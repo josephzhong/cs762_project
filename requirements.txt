@@ -1,0 +1,20 @@
+numpy==2.2.6
+pandas>=2.0
+datasets==4.2.0
+tqdm>=4.65
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0
+peft
+tiktoken>=0.7.0
+transformers>=4.44.0
+scipy>=1.11
+openpyxl
+accelerate>=1.4.0
+wandb
+tensorboard
+renumics_spotlight
+scikit-learn==1.7.2
+matplotlib
+qwen-vl-utils
+unsloth
+
