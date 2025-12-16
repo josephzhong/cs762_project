@@ -12,6 +12,7 @@ Code for the CS762 project **R2T**, an inference-time method to detect reward ha
 - **R2T training:** append R2T tokens, run a LoRA-adapted backbone, extract multi-vector embeddings, and train with an InfoNCE objective on the training dataset.
   
   E.x. To train R2T with a Qwen3-8B backbone:
+  
   python train.py \
     --model-name Qwen3/Qwen3-8B \
     --dataset josephzhong/text-math-RewardHacking \
@@ -24,6 +25,7 @@ Code for the CS762 project **R2T**, an inference-time method to detect reward ha
 - **R2T evaluation:** evaluate the trained R2T on a test dataset.
   
   To evaluate a saved R2T checkpoint:
+  
   python eval.py \
     --model-name \
      <BACKBONE_MODEL_NAME> \
