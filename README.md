@@ -9,7 +9,7 @@ Code for the CS762 project **R2T**, an inference-time method to detect reward ha
 - **Setup:**
   1. pip install -r requirements.txt
   2. install [flash attention](https://github.com/Dao-AILab/flash-attention)
-  3. Get access to the [dataset](https://huggingface.co/datasets/josephzhong/text-math-RewardHacking)
+  3. get access to the [dataset](https://huggingface.co/datasets/josephzhong/text-math-RewardHacking)
 - **R2T training:** append R2T tokens, run a LoRA-adapted backbone, extract multi-vector embeddings, and train with an InfoNCE objective on the training dataset. 
   - To train R2T with a Qwen3-8B backbone: \
   export HF_TOKEN=<YOUR_HF_TOKEN>;
