@@ -21,7 +21,6 @@ Code for the CS762 project **R2T**, an inference-time method to detect reward ha
   --num-epochs 4 --max-length 12288 
   --batch-size 4 
   --lr 1e-4 --temperature 0.7 
-  --lora-r 32 --lora-alpha 64 
 
 - **R2T evaluation:** evaluate the trained R2T on a test dataset. 
   - To evaluate a saved R2T checkpoint: \
